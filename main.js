@@ -6,18 +6,19 @@ var percentage = (obtainedMarks / totalMarks) * 100;
 
 var remarks;
 if (percentage < 50) {
-    remarks = "jero ho tum";
+    remarks = "Fail";
 } else if (percentage < 60) {
-    remarks = "shhhh kisi kaam ke nh ho";
+    remarks = "Below Average.";
 } else if (percentage < 70) {
-    remarks = "Mehnat kar bhaii";
+    remarks = "Average.";
 } else if (percentage < 90) {
-    remarks = "Aag laga di Aag laga di Aag laga di ";
+    remarks = "Good.";
 } else {
-    remarks = "Matrix Excape karlia";
+    remarks = "Wowwww.....";
 }
 alert("Name : " + name + "\n" +
       "Obtained Marks : " + obtainedMarks + "\n" +
       "Total Marks : " + totalMarks + "\n" +
       "Percentage : " + percentage + "%" + "\n" +
       "Remarks : " + remarks);
+
